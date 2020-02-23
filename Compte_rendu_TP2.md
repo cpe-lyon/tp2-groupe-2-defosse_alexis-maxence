@@ -260,3 +260,53 @@ done
     
     
     ```
+    ```bash
+Exercice 7 (finis) :
+
+#!/bin/bash
+
+MIN=$1
+MAX=$1
+MOY=0
+MEM=0
+bool=1
+
+nb_val=$1
+
+for i in $(seq 1 $1);do
+
+read -p "Choisissez une valeur:" var
+
+    if [[ $var -gt 100 || $var -lt "-100" ]]; then
+        echo "Mauvais paramètre"
+        exit 1
+       
+    else
+  
+    if [ $var -lt $MIN ]; then
+   
+    MIN=$var;   
+
+    else
+   
+    MAX=$var;
+
+    fi
+
+
+    MEM=$(($MEM+$var))
+
+   
+    shift
+   
+    fi
+   
+
+
+
+done
+    moy=$(($MEM/$nb_val))
+    echo "Valeur moyenne: "$moy
+    echo "Valeur max: "$MAX
+    echo "Valeur min: "$MIN
+    ```
