@@ -215,7 +215,7 @@ echo $maVal
 
 ```
 
-**Exercice 7 Questions 1 & 2 **
+**Exercice 7 Questions 1 et 2**
 ```bash
 #!/bin/bash
 
