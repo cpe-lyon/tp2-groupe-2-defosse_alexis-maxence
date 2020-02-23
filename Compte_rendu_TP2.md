@@ -215,7 +215,7 @@ echo $maVal
 
 ```
 
-**Exercice 7**
+**Exercice 7 (question 1 & 2) **
 ```bash
 #!/bin/bash
 
@@ -259,9 +259,11 @@ done
     echo "Valeur min: "$MIN
     
     
-    ```
-    ```bash
-Exercice 7 (finis) :
+```
+**Exercice 7 (Question 3) :**
+```bash
+    
+
 
 #!/bin/bash
 
@@ -309,4 +311,5 @@ done
     echo "Valeur moyenne: "$moy
     echo "Valeur max: "$MAX
     echo "Valeur min: "$MIN
-    ```
+   
+```
