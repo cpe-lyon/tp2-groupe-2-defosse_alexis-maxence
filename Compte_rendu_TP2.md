@@ -161,7 +161,7 @@ else
 
 ```
 
-**Exercice 5 **
+**Exercice 5**
 
 ```bash
 #!/bin/bash
@@ -215,7 +215,7 @@ echo $maVal
 
 ```
 
-**Exercice 7 Questions 1 et 2 (Contributor Samy guessoum) **
+**Exercice 7 Questions 1 et 2 (Contributor Samy guessoum)**
 ```bash
 #!/bin/bash
 
